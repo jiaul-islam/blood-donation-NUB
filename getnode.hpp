@@ -206,7 +206,7 @@ node* getNode() {
     }
     else {
         int rem = 60-x;
-        string s = "Already donated! " + toString(rem) + " days to be available.";
+        string s = "Donated! " + toString(rem) + " days remaining.";
         newNode->status = s ;
     }
     newNode->next = NULL;

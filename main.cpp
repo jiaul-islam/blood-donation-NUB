@@ -123,7 +123,7 @@ void displayInformation() {
     	cout << endl;
     }
     while(temp != NULL) {
-        cout<<"|| " << counter<< " \t\t  " << temp->name << " \t\t " << temp->rollNumber << " \t\t\t " << temp->section << "\t\t\t\t  " << temp->blood_group <<"\t\t" << temp->bday.d << "-" << temp->bday.m << "-" << temp->bday.y << "  \t  " << temp->status << "   ||"<< endl;
+        cout<<"  " << counter<< " \t\t  " << temp->name << " \t\t " << temp->rollNumber << " \t\t\t " << temp->section << "\t\t\t\t  " << temp->blood_group <<"\t\t" << temp->bday.d << "-" << temp->bday.m << "-" << temp->bday.y << "  \t  " << temp->status << endl;
         for(int i = 0; i < 159; ++i) {
             cout << "-";
         }
