@@ -46,7 +46,7 @@ int main() {
             makeSpace();
             cout << "Access Granted ";
             for (int i = 0; i <= 2; ++i) {
-                sleep(1);
+                //sleep(1);
                 cout << "." << flush;
             }
             cout << endl;
@@ -181,7 +181,7 @@ void mainMenu() {
     string m_input;
     int range;
     for (int i = 0; i <= 119; ++i) {
-        sleep(0.40);		// using just a simple slow animation for cli program.
+        //sleep(0.40);		// using just a simple slow animation for cli program.
         cout << "=" << flush;
     }
     cout << endl << endl;
@@ -247,7 +247,7 @@ void mainMenu() {
         case 'q':
             cout << "Exiting Program";
             for (int i = 0; i <= 2; ++i) {
-                sleep(1);
+                //sleep(1);
                 cout << "." << flush;
             }
             system("cls");
