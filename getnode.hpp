@@ -202,7 +202,7 @@ node* getNode() {
 
     int x = getDifference(newNode->bday, dt2); // getting the number of days from two dates into x 
     if(x > 60) {
-        newNode->status = "available";
+        newNode->status = "Available";
     }
     else {
         int rem = 60-x;

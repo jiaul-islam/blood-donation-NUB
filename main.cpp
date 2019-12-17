@@ -322,7 +322,7 @@ void check_for_available_donors(node *pToHead){
 	node *temp = head;
 	int perCounter = 0, findDonor = 0;
 	while (temp != NULL){
-		if(temp->status == "available"){	// check if any available donors have in the list
+		if(temp->status == "Available"){	// check if any available donors have in the list
 			cout << ++perCounter << ": Donor Name- " << temp->name << " || Donor Blood Group- " << temp->blood_group << " || Donor Roll- " << temp->rollNumber << endl;
 			findDonor++;
 		}
