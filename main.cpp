@@ -3,7 +3,6 @@
 #include <string>
 #include <fstream>
 #include <sstream>
-#include <cstdio>
 #include <unistd.h>
 #include <cstdlib>
 #include "getnode.hpp"

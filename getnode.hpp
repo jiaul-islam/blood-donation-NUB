@@ -1,6 +1,5 @@
 using namespace std;
 
-
 /* Only for day count use */
 struct b_day
 {
