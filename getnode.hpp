@@ -74,7 +74,7 @@ typedef struct Node {
 
 /*  DEFAULT DATE FOR TODAY REFERENCE */
 
-b_day dt2 = {20,12,2019}; // For now need to set it manually
+b_day dt2 = {27,12,2019}; // For now need to set it manually
 
 /* ---------------------------------------------- */
 
