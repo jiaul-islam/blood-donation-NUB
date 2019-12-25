@@ -17,10 +17,10 @@ void endMyProgram();                                        // Just a simple not
 void nodeAtBegining();                                      // Creating node at beginning
 void createNode(int x);                                     // Create nth terms of node
 void displayInformation();                                  // Display all the info
-int countLeapYears(b_day d);                                // Calculate leap year function
+//int countLeapYears(b_day d);                                // Calculate leap year function
 int countnode(node *stList);                                // Counting node list
 void writeListToFile(node *pToHead);                        // Export Data to file
-int getDifference(b_day dt1, b_day dt2);                    // Gets the difference between two dates
+//int getDifference(b_day dt1, b_day dt2);                    // Gets the difference between two dates
 void check_with_blood_group(node *pToHead);                 // filters the donors with blood group
 void check_for_available_donors(node *pToHead);             // filters the available donors
 
