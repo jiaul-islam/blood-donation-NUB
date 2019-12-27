@@ -298,8 +298,7 @@ void asciiArt() {
 
                                          		TO 
                                          NUBian Students Blood Foundation Program
-                                ** This Program is developed by ECSE-2nd-Semester(DOS-I Programming) **
-                            Participants>> 1: 190201123 2: 190201161 3: 180300995 4: 190201177 5: 190201190
+                                         Developer: KM Jiaul Islam
     )" << endl;
     for (int i = 0; i < 120; i++)
     {

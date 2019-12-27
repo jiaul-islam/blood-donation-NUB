@@ -112,7 +112,7 @@ node* getNode() {
     do {
         cin >> m_some;
         for(int i = 0; i < m_some.length(); i++){
-            if(isdigit(m_some[i]) == true){
+            if(isdigit(m_some[i]) != 0){
                 newNode->rollNumber = stoi(m_some);
                 checkString = true;
             }
